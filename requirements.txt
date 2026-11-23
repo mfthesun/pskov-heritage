@@ -1,0 +1,14 @@
+geopandas
+pandas
+numpy
+duckdb
+pyarrow
+shapely>=2
+pyproj
+matplotlib
+contextily
+xyzservices
+nbformat
+nbconvert
+ipykernel
+pytest

@@ -1,0 +1,6 @@
+dataset,records,records_with_geometry,records_without_geometry,city_intersects,city_within,distinct_object_id_values_city,unique_registry_numbers_city,selection_rule
+egrokn,4374,1168,3206,301,301,301,301,intersects OSM relation 1050399; polygons/zones additionally clipped; missing geometries not selected
+Heritage_Points,4431,4430,1,435,435,428,4,intersects OSM relation 1050399; polygons/zones additionally clipped; missing geometries not selected
+Heritage_Polygons,1493,1493,0,438,436,410,0,intersects OSM relation 1050399; polygons/zones additionally clipped; missing geometries not selected
+Protection_Zones,148,148,0,22,21,10,0,intersects OSM relation 1050399; polygons/zones additionally clipped; missing geometries not selected
+Settlements,16,16,0,1,1,1,0,intersects OSM relation 1050399; polygons/zones additionally clipped; missing geometries not selected

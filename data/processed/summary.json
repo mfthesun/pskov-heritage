@@ -1,0 +1,148 @@
+{
+  "verification_date": "2026-11-23",
+  "crs": {
+    "exchange": "EPSG:4326",
+    "metric": "EPSG:32635",
+    "source_gpkg": "EPSG:3857"
+  },
+  "egrokn": {
+    "records": 4374,
+    "columns": 56,
+    "unique_registry_numbers": 4374,
+    "with_coordinates": 1168,
+    "without_coordinates": 3206,
+    "city_points": 301,
+    "regions": {
+      "Псковская область": 4366,
+      "Ленинградская область": 6,
+      "Новгородская область": 2
+    },
+    "explicit_ensemble_ids": 0,
+    "record_created_min": "1970-01-01 03:00:00+00:00",
+    "record_updated_max": "2026-04-20 09:49:31+00:00"
+  },
+  "gpkg": {
+    "Heritage_Points": {
+      "features": 4431,
+      "city_intersects": 435,
+      "city_output": 435,
+      "null_geometry": 1,
+      "invalid_nonempty_geometry": 0,
+      "exact_duplicate_geometry_rows": 12,
+      "duplicate_globalid_rows": 19
+    },
+    "Heritage_Polygons": {
+      "features": 1493,
+      "city_intersects": 438,
+      "city_output": 438,
+      "null_geometry": 0,
+      "invalid_nonempty_geometry": 0,
+      "exact_duplicate_geometry_rows": 784,
+      "duplicate_globalid_rows": 43
+    },
+    "Protection_Zones": {
+      "features": 148,
+      "city_intersects": 22,
+      "city_output": 22,
+      "null_geometry": 0,
+      "invalid_nonempty_geometry": 0,
+      "exact_duplicate_geometry_rows": 0,
+      "duplicate_globalid_rows": 83
+    },
+    "Settlements": {
+      "features": 16,
+      "city_intersects": 1,
+      "city_output": 1,
+      "null_geometry": 0,
+      "invalid_nonempty_geometry": 0,
+      "exact_duplicate_geometry_rows": 0,
+      "duplicate_globalid_rows": 0
+    }
+  },
+  "links": {
+    "point_polygon_pairs": 2736,
+    "point_polygon_globalid_matches": 0,
+    "egrokn_gpkg_pairs": 1367,
+    "egrokn_gpkg_registry_matches": 0,
+    "egrokn_gpkg_nearest_1m_pairs": 0,
+    "egrokn_gpkg_polygon_pairs": 1367
+  },
+  "ensembles": {
+    "candidate_rows": 152,
+    "component_name_candidates": 74,
+    "explicit_ensemble_ids": 0
+  },
+  "status_discrepancies": {
+    "gpkg_internal": 1,
+    "cross_source_all": 444,
+    "cross_source_confirmed_registry": 0
+  },
+  "zone_types": [
+    {
+      "zone_type": "Зона охраны культурного объекта",
+      "zone_requisites_status": "act_requisites_not_documented",
+      "region_features": 61,
+      "city_features": 11
+    },
+    {
+      "zone_type": "Зона охраняемого природного ландшафта",
+      "zone_requisites_status": "act_requisites_not_documented",
+      "region_features": 9,
+      "city_features": 2
+    },
+    {
+      "zone_type": "Зона регулирования застройки и хозяйственной деятельности объекта культурного наследия",
+      "zone_requisites_status": "act_requisites_not_documented",
+      "region_features": 78,
+      "city_features": 9
+    }
+  ],
+  "blocksnet": [
+    {
+      "layer": "Heritage_Points",
+      "new_selection_rows": 435,
+      "blocksnet_rows": 435,
+      "row_count_matches": true,
+      "aligned_geometry_equals_exact": 0,
+      "aligned_geometry_topologically_equal": 0,
+      "aligned_geometry_within_1m": 435,
+      "max_aligned_hausdorff_m": 0.061055064923412776,
+      "aligned_shared_attributes_equal": 435,
+      "shared_attribute_columns": "NAME|ADDRESS|REG_NUMBER|HIST_CAT|HER_TYPE|Category|semantic_type|UNESCO|Особо_ценные|STATUS",
+      "comparison_note": "aligned rows; polygons and zones are clipped in both outputs; blocksnet lacks source identifiers"
+    },
+    {
+      "layer": "Heritage_Polygons",
+      "new_selection_rows": 438,
+      "blocksnet_rows": 438,
+      "row_count_matches": true,
+      "aligned_geometry_equals_exact": 0,
+      "aligned_geometry_topologically_equal": 0,
+      "aligned_geometry_within_1m": 438,
+      "max_aligned_hausdorff_m": 0.06280600982161368,
+      "aligned_shared_attributes_equal": 438,
+      "shared_attribute_columns": "NAME|ADDRESS|NUMBER|HIST_CAT|Category|semantic_type|UNESCO|Особо_ценные|STATUS",
+      "comparison_note": "aligned rows; polygons and zones are clipped in both outputs; blocksnet lacks source identifiers"
+    },
+    {
+      "layer": "Protection_Zones",
+      "new_selection_rows": 22,
+      "blocksnet_rows": 22,
+      "row_count_matches": true,
+      "aligned_geometry_equals_exact": 0,
+      "aligned_geometry_topologically_equal": 0,
+      "aligned_geometry_within_1m": 22,
+      "max_aligned_hausdorff_m": 0.05864168577522306,
+      "aligned_shared_attributes_equal": 22,
+      "shared_attribute_columns": "ZONE_DESC|OBJECTNAME|STATUS|REESTRZOIT",
+      "comparison_note": "aligned rows; polygons and zones are clipped in both outputs; blocksnet lacks source identifiers"
+    }
+  ],
+  "limitations": [
+    "Feature counts are not counts of unique cultural heritage objects.",
+    "Records without coordinates are not spatially assigned to the city.",
+    "Spatial and name-based ensemble links are candidates, not confirmed registry identity.",
+    "GPKG legal statuses and protection-zone acts require object-level primary documents.",
+    "The city boundary is OSM relation 1050399, not an official cadastral boundary."
+  ]
+}
