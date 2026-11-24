@@ -1,0 +1,4 @@
+layer,new_selection_rows,blocksnet_rows,row_count_matches,aligned_geometry_equals_exact,aligned_geometry_topologically_equal,aligned_geometry_within_1m,max_aligned_hausdorff_m,aligned_shared_attributes_equal,shared_attribute_columns,comparison_note
+Heritage_Points,435,435,True,0,0,435,0.061055064923412776,435,NAME|ADDRESS|REG_NUMBER|HIST_CAT|HER_TYPE|Category|semantic_type|UNESCO|Особо_ценные|STATUS,aligned rows; polygons and zones are clipped in both outputs; blocksnet lacks source identifiers
+Heritage_Polygons,438,438,True,0,0,438,0.06280600982161368,438,NAME|ADDRESS|NUMBER|HIST_CAT|Category|semantic_type|UNESCO|Особо_ценные|STATUS,aligned rows; polygons and zones are clipped in both outputs; blocksnet lacks source identifiers
+Protection_Zones,22,22,True,0,0,22,0.05864168577522306,22,ZONE_DESC|OBJECTNAME|STATUS|REESTRZOIT,aligned rows; polygons and zones are clipped in both outputs; blocksnet lacks source identifiers

@@ -1,0 +1,3 @@
+scenario_id,modelled_areas,nearest_boundary_area,distance_to_nearest_boundary_m,status
+S1,,EZRZ-1,7,Обзорная привязка; режим участка не установлен
+S2,EZRZ-5,EZRZ-2,8,Обзорная привязка; режим участка не установлен
