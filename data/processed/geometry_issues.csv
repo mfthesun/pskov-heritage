@@ -1,0 +1,6 @@
+layer,rows,with_geometry,null_or_missing_geometry,empty_geometry,invalid_nonempty_geometry,repaired_geometry,exact_duplicate_geometry_rows,exact_duplicate_geometry_groups,duplicate_feature_id_rows,duplicate_globalid_rows,duplicate_globalid_groups,unique_record_uid
+egrokn_points,4374,1168,3206,0,0,0,14,5,0,0,0,1168
+Heritage_Points,4431,4430,1,0,0,0,12,6,19,19,8,4431
+Heritage_Polygons,1493,1493,0,0,0,0,784,380,43,43,8,1493
+Protection_Zones,148,148,0,0,0,0,0,0,83,83,6,148
+Settlements,16,16,0,0,0,0,0,0,0,0,0,16

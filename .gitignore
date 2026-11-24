@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+*.pbf
+*.zip
+data/raw/cache/
+.DS_Store
+tmp/
+
+# Локальные копии источников и воспроизводимые выгрузки с полями источников.
+data/raw/pokrova/*
+!data/raw/pokrova/manifest.csv
+data/raw/team_pdfs/*
+!data/raw/team_pdfs/manifest.csv
+data/processed/heritage.gpkg
+data/processed/egrokn_records.csv
+reports/tables/.tmp*
+
+reports/tables/.legal_review_tmp/
